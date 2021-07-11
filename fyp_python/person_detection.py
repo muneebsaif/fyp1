@@ -27,7 +27,7 @@ class myclass():
             pass
         self.apikey='W3zaorheWPAXV7hrJXuq7kBj'
         self.img=[]
-        weight_path="./fyp_persondetection_files/yolov3-tiny.weights"
+        weight_path="/content/drive/MyDrive/Trained_files/yolov3-tiny.weights"
         cfg_path="./fyp_persondetection_files/yolov3-tiny.cfg"
         self.net = cv2.dnn.readNet(weight_path, cfg_path)
         layer_names = self.net.getLayerNames()
